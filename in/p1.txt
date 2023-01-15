@@ -1,0 +1,13 @@
+{
+	val a: Integer
+	read(a)
+	if (a < 2) then {
+		write("false")
+	} else {
+		for (2 to a/2) do
+			if (a % i == 0) then {
+				write("false")
+			} endif
+		write("true")
+	} endif
+}
